@@ -24,6 +24,6 @@ else:
     print(f"Error: Donut with name {donut_name} not found.")
 
 
-with open('ex5.json', 'w') as file:
+with open('C:\\python trainig\\Assessment2\\ex5.json', 'w') as file:
     json.dump(ex5, file, indent=3)
     
