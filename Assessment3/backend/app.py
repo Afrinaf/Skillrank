@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)
 
 
-with open('C:\\python trainig\\Assessment3\\backend\\login.json', 'r') as f:
+with open('login.json', 'r') as f:
     users = json.load(f)
 
 @app.route('/login', methods=['POST'])
